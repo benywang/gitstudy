@@ -259,8 +259,8 @@ static int keyboard_notifier_call(struct notifier_block *blk,
 				beep(440);
 		}
 	}
-	case KBD_UNBOUND_KEYCODE:
-	case KBD_UNICODE:
+	//case KBD_UNBOUND_KEYCODE:
+	//case KBD_UNICODE:
 	case KBD_KEYSYM:
 		/* Unused */
 		break;
